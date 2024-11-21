@@ -276,16 +276,16 @@ span{
 
 /* About Me Section */
 #about-me {
-    background-color: #272727; /* Dark gray background */
-    color: #FBFBFB; /* White text */
+    background-color: #272727; 
+    color: #FBFBFB; 
     padding: 5rem 9%;
     text-align: center;
-    border-radius: 1rem; /* Adds a subtle rounded corner effect */
+    border-radius: 1rem;
 }
 
 #about-me h1 {
     font-size: 4rem;
-    color: #31E981; /* Thematic green for headings */
+    color: #31E981; 
     margin-bottom: 3rem;
 }
 
@@ -294,7 +294,7 @@ span{
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    flex-wrap: wrap; /* Ensures responsiveness */
+    flex-wrap: wrap; 
 }
 
 .about-me img {
@@ -319,13 +319,13 @@ span{
 
 .about-me-text h2 {
     font-size: 3rem;
-    color: #31E981; /* Thematic green */
+    color: #31E981; 
     margin-bottom: 1.5rem;
 }
 
 .about-me-text h3 {
     font-size: 2.5rem;
-    color: #58A4B0; /* Secondary thematic color */
+    color: #58A4B0; 
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -348,7 +348,7 @@ span{
 
 .about-me-text ul li::before {
     content: "•";
-    color: #31E981; /* Green bullet points */
+    color: #31E981; 
     position: absolute;
     left: 0;
 }
@@ -370,8 +370,8 @@ span{
 
 /* Experience in IMT Section */
 #Ex-Imt {
-    background-color: #FBFBFB; /* White background */
-    color: #272727; /* Dark gray text for contrast */
+    background-color: #FBFBFB;
+    color: #272727; 
     padding: 5rem 9%;
     text-align: center;
 }
@@ -379,7 +379,7 @@ span{
 #Ex-Imt h1 {
     font-size: 4rem;
     margin-bottom: 3rem;
-    color: #31E981; /* Consistent green for headings */
+    color: #31E981; 
 }
 
 .experience {
@@ -388,14 +388,14 @@ span{
     justify-content: center;
     margin-bottom: 4rem;
     gap: 3rem;
-    flex-wrap: wrap; /* For responsive design */
+    flex-wrap: wrap; 
 }
 
 .experience img {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     border-radius: 1rem;
-    background-color: #FBFBFB; /* Matches section background */
+    background-color: #FBFBFB; 
 }
 
 .experience img:hover {
@@ -430,42 +430,42 @@ span{
 
 /* Alternating Layout */
 .experience:nth-child(even) {
-    flex-direction: row-reverse; /* Reverse for even items */
+    flex-direction: row-reverse; 
 }
 
 /* Responsive Design */
 @media (max-width: 995px) {
     .experience {
-        flex-direction: column; /* Stack vertically */
+        flex-direction: column; 
     }
 
     .experience img {
-        width: 80%; /* Adjust image size for smaller screens */
+        width: 80%; 
     }
 
     .experience-text {
-        text-align: center; /* Center text on smaller screens */
+        text-align: center; 
     }
 }
 
 
 /* IMT Experience Section */
 #ex-imt {
-    background-color: #FBFBFB; /* Light background */
+    background-color: #FBFBFB; 
     padding: 5rem 9%;
     text-align: center;
-    border-radius: 1rem; /* Subtle rounded corners */
+    border-radius: 1rem; 
 }
 
 #ex-imt h1 {
     font-size: 3.5rem;
-    color: #31E981; /* Dark text for headings */
+    color: #31E981; 
     margin-bottom: 2rem;
 }
 
 #ex-imt .intro {
     font-size: 1.6rem;
-    color: #555; /* Soft dark grey for intro text */
+    color: #555; 
     margin-bottom: 3rem;
     line-height: 1.8;
 }
@@ -476,7 +476,7 @@ span{
     justify-content: space-between;
     margin-bottom: 4rem;
     gap: 2rem;
-    flex-wrap: wrap; /* Ensure responsiveness */
+    flex-wrap: wrap;
 }
 
 .experience img {
@@ -498,14 +498,14 @@ span{
 
 .experience-text h3 {
     font-size: 2.5rem;
-    color: #58A4B0; /* Dark color for sub-headings */
+    color: #58A4B0; 
     margin-bottom: 1rem;
 }
 
 .experience-text p {
     font-size: 1.5rem;
     line-height: 1.8;
-    color: #b9b9b9; /* Lighter grey for paragraphs to create contrast */
+    color: #b9b9b9; 
 }
 
 @media (max-width: 995px) {
