@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
+/*Home Section*/
 *{
     margin: 0;
     padding: 0;
@@ -51,7 +52,7 @@ header{
 
 nav a{
     font-size: 1.8rem;
-    color: #FBFBFB;
+    color: #272727;
     margin-left: 4rem;
     font-weight: 500;
     transition: 0.3s ease;
@@ -137,8 +138,8 @@ span{
 .home-img img{
     position: relative;
     width: 32vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px solid #284e03;
+    border-radius: 25%;
+    box-shadow: 0 0 25px solid #0d6091;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -173,7 +174,7 @@ span{
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background-color: #011C27;
+    background-color: #272727;
     border-radius: 4rem;
     font-size: 1.6rem;
     color: #fbfbfb;
@@ -273,3 +274,251 @@ span{
     }
 }
 
+/* About Me Section */
+#about-me {
+    background-color: #272727; /* Dark gray background */
+    color: #FBFBFB; /* White text */
+    padding: 5rem 9%;
+    text-align: center;
+    border-radius: 1rem; /* Adds a subtle rounded corner effect */
+}
+
+#about-me h1 {
+    font-size: 4rem;
+    color: #31E981; /* Thematic green for headings */
+    margin-bottom: 3rem;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.about-me img {
+    width: 30%;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.about-me img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(49, 233, 129, 0.6);
+}
+
+.about-me-text {
+    max-width: 700px;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #FBFBFB;
+}
+
+.about-me-text h2 {
+    font-size: 3rem;
+    color: #31E981; /* Thematic green */
+    margin-bottom: 1.5rem;
+}
+
+.about-me-text h3 {
+    font-size: 2.5rem;
+    color: #58A4B0; /* Secondary thematic color */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-me-text p,
+.about-me-text ul {
+    margin-bottom: 1.5rem;
+}
+
+.about-me-text ul {
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.about-me-text ul li {
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.about-me-text ul li::before {
+    content: "•";
+    color: #31E981; /* Green bullet points */
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 995px) {
+    .about-me {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me img {
+        width: 80%;
+    }
+
+    .about-me-text {
+        text-align: center;
+    }
+}
+
+/* Experience in IMT Section */
+#Ex-Imt {
+    background-color: #FBFBFB; /* White background */
+    color: #272727; /* Dark gray text for contrast */
+    padding: 5rem 9%;
+    text-align: center;
+}
+
+#Ex-Imt h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #31E981; /* Consistent green for headings */
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    gap: 3rem;
+    flex-wrap: wrap; /* For responsive design */
+}
+
+.experience img {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-radius: 1rem;
+    background-color: #FBFBFB; /* Matches section background */
+}
+
+.experience img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(49, 233, 129, 0.6);
+}
+
+/* Landscape Images */
+.experience img {
+    width: 60%; 
+    height: auto;
+}
+
+/* Text Box Styling */
+.experience-text {
+    max-width: 600px;
+    padding: 2rem;
+    background-color: #272727;
+    color: #FBFBFB;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-text:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(49, 233, 129, 0.6);
+}
+
+/* Alternating Layout */
+.experience:nth-child(even) {
+    flex-direction: row-reverse; /* Reverse for even items */
+}
+
+/* Responsive Design */
+@media (max-width: 995px) {
+    .experience {
+        flex-direction: column; /* Stack vertically */
+    }
+
+    .experience img {
+        width: 80%; /* Adjust image size for smaller screens */
+    }
+
+    .experience-text {
+        text-align: center; /* Center text on smaller screens */
+    }
+}
+
+
+/* IMT Experience Section */
+#ex-imt {
+    background-color: #FBFBFB; /* Light background */
+    padding: 5rem 9%;
+    text-align: center;
+    border-radius: 1rem; /* Subtle rounded corners */
+}
+
+#ex-imt h1 {
+    font-size: 3.5rem;
+    color: #31E981; /* Dark text for headings */
+    margin-bottom: 2rem;
+}
+
+#ex-imt .intro {
+    font-size: 1.6rem;
+    color: #555; /* Soft dark grey for intro text */
+    margin-bottom: 3rem;
+    line-height: 1.8;
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    gap: 2rem;
+    flex-wrap: wrap; /* Ensure responsiveness */
+}
+
+.experience img {
+    width: 45%;
+    border-radius: 1rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.experience-text {
+    flex: 1;
+    text-align: left;
+}
+
+.experience-text h3 {
+    font-size: 2.5rem;
+    color: #58A4B0; /* Dark color for sub-headings */
+    margin-bottom: 1rem;
+}
+
+.experience-text p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #b9b9b9; /* Lighter grey for paragraphs to create contrast */
+}
+
+@media (max-width: 995px) {
+    .experience {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience img {
+        width: 80%;
+    }
+
+    .experience-text {
+        text-align: center;
+    }
+}
